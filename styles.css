@@ -37,9 +37,25 @@ body {
 }
 
 .logo h1 {
-    font-size: 24px;
-    color: #1e3c72;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.logo h1 img {
+    height: 35px;
+    /* Sesuaikan ukuran, bisa 30px, 35px, atau 40px */
+    width: auto;
+    object-fit: contain;
+}
+
+/* Jika ingin lebih kecil lagi */
+.logo h1 img {
+    height: 28px;
+    /* Ukuran kecil dan proporsional */
 }
 
 .logo p {
@@ -196,7 +212,7 @@ body {
     border-radius: 50px;
     font-size: 14px;
     font-weight: 500;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: transform 0.2s;
     z-index: 1000;
@@ -237,33 +253,33 @@ footer i {
         gap: 10px;
         margin-bottom: 15px;
     }
-    
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .search-icon {
         align-self: flex-start;
         margin-top: 10px;
     }
-    
+
     .logo h1 {
         font-size: 20px;
     }
-    
+
     .product-tag h2 {
         font-size: 24px;
     }
-    
+
     .product-tag h3 {
         font-size: 22px;
     }
-    
+
     .icons {
         justify-content: center;
     }
-    
+
     .top-bar .call-center {
         font-size: 12px;
         text-align: center;
@@ -274,15 +290,15 @@ footer i {
     .container {
         padding: 0 15px;
     }
-    
+
     .product-tag h2 {
         font-size: 20px;
     }
-    
+
     .description h4 {
         font-size: 18px;
     }
-    
+
     .chat-bubble {
         padding: 8px 15px;
         font-size: 12px;
