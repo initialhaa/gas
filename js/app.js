@@ -3,8 +3,8 @@ const productData = [
         id: 1,
         name: "LPG Pertamina Gas 5.5 kg",
         weight: "5,5 kg",
-        desc: "Cocok untuk kebutuhan rumah tangga dan usaha.",
-        price: "Rp 100.000",
+        desc: "Untuk kebutuhan rumah tangga dan usaha kecil.",
+        // price: "Rp 100.000",
         image: "5.5kg.jpg"
     },
     {
@@ -12,15 +12,15 @@ const productData = [
         name: "LPG Pertamina Gas 12 kg",
         weight: "12 kg",
         desc: "Ukuran medium untuk rumah tangga dan usaha kuliner.",
-        price: "Rp 155.000",
+        // price: "Rp 155.000",
         image: "12kg.jpg"
     },
     {
         id: 3,
         name: "LPG Pertamina 50 kg",
         weight: "50 kg",
-        desc: "Cocok untuk kebutuhan industri dan usaha skala besar.",
-        price: "Rp 620.000",
+        desc: "Untuk kebutuhan industri dan usaha skala besar.",
+        // price: "Rp 620.000",
         image: "50kg.jpg"
     }
 ];
@@ -64,9 +64,7 @@ function renderProductGrid(containerId, filterWeights = null) {
                         ${prod.desc}
                     </p>
 
-                    <div class="product-price">
-                        ${prod.price}
-                    </div>
+                    
 
                     <button
                         class="btn-order"
@@ -88,7 +86,7 @@ function renderProductGrid(containerId, filterWeights = null) {
             const productName =
                 btn.getAttribute('data-product') || 'Produk';
 
-            const waNumber = '6281310936835';
+            const waNumber = '6285711177712';
 
             const message = encodeURIComponent(
 `Halo PT. Jonggol Berkah Energi,
