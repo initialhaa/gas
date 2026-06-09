@@ -89,17 +89,15 @@ function renderProductGrid(containerId, filterWeights = null) {
             const waNumber = '6285711177712';
 
             const message = encodeURIComponent(
-`Halo PT. Jonggol Berkah Energi,
+            `Halo PT. Jonggol Berkah Energi,
 
-Saya ingin memesan produk berikut:
-
-${productName}
-
-Mohon informasi mengenai:
-- Ketersediaan stok
-- Harga terbaru
-- Biaya pengiriman
-- Metode pembayaran
+            Saya ingin memesan produk berikut:
+            ${productName}
+            
+            Mohon informasi mengenai:
+            - Ketersediaan stok
+            - Harga terbaru
+            - Metode pembayaran
 
 Terima kasih.`
             );
