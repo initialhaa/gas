@@ -1,0 +1,9 @@
+deployment:
+  tasks:
+    # Deploy ke domain utama (tanpa www)
+    - export DEPLOYPATH=/home/jony9583/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    
+    # Deploy ke www (untuk versi www.domain.com)
+    - export DEPLOYPATH2=/home/jony9583/www/
+    - /bin/cp -R * $DEPLOYPATH2
